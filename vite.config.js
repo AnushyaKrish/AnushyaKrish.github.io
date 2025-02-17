@@ -11,10 +11,10 @@ export default defineConfig({
     },
   },
   base: '/',
-  build: {
-    outDir: 'dist',
-  },
-  server: {
-    historyApiFallback: true,
-  }
+  // build: {
+  //   outDir: 'dist',
+  // },
+  // server: {
+  //   historyApiFallback: true,
+  // }
 })
