@@ -15,7 +15,7 @@ export const Education = () => {
         {
             degree: 'HSC',
             year: '2016 - 2017',
-            institution: 'M.R.G. Government Girls Higher Secondary School.',
+            institution: 'M.R.G. Government Girls Higher Secondary School, Erode.',
         },
 
     ];
