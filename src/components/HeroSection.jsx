@@ -5,11 +5,8 @@ import { TypingAnimation } from "@/components/magicui/typing-animation";
 import anu from "/anu-3.jpg";
 
 export const HeroSection = () => {
-    const scrollToBottom = () => {
-        window.scrollTo({
-            top: document.body.scrollHeight,
-            behavior: "smooth"
-        });
+    const scrollToProfile = () => {
+        document.getElementById("profile").scrollIntoView({ behavior: "smooth" });
     };
 
     return (
@@ -29,7 +26,7 @@ export const HeroSection = () => {
                     <TypingAnimation className="text-xl md:text-3xl xl:text-4xl text-slate-300 mb-5 font-semibold" startOnView={true}>Mobile App Developer</TypingAnimation>
                     
                     {/* Scroll Button */}
-                    <button onClick={scrollToBottom} className="mt-4">
+                    <button onClick={scrollToProfile} className="mt-4">
                         <RiScrollToBottomLine className="animate-bounce text-2xl md:text-3xl lg:text-4xl mx-auto text-slate-400 cursor-pointer" />
                     </button>
                 </div>

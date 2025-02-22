@@ -1,5 +1,5 @@
 import React from 'react'
-import anu from "/akinfopark_logo.jpg"
+import akinfopark from "/akinfopark_logo.jpg"
 
 export const Experience = () => {
   return (
@@ -13,20 +13,20 @@ export const Experience = () => {
         <div>
 
           {/* Experience List */}
-          <div className="flex gap-4">
+          <div className="flex gap-9">
 
             {/* Left Section */}
-            <div className="inline-flex justify-center items-center flex-col">
+            <div className="inline-flex object-cover w-20 h-13 justify-center items-center flex-col gap-2">
              <img 
-                src={anu} 
-                alt="anushya-profile-img" 
-                className="rounded-full object-cover w-20 h-13"
+                src={akinfopark} 
+                alt="akinfopark-img" 
+                className="rounded-full ring-1 md:ring-2 ring-blue-500 ring-offset-4 ring-offset-slate-900"
             />
             <div className="h-full w-px bg-slate-700"></div>
             </div>
 
             {/* Right Section */}
-            <div className="py-10">
+            <div className="py-3 pb-5">
               <div className="flex items-start mb-3 flex-col md:flex-row md:gap-2">
                 <span className='font-bold text-xl text-slate-200'>AK Infopark Private Limited</span>
                 <span className="font-normal text-lg text-slate-400">- Mobile App Developer - Team Lead</span>
@@ -45,7 +45,7 @@ export const Experience = () => {
               </ul>
             </div>
           </div>
-
+          
         </div>
       </div>
     </div>

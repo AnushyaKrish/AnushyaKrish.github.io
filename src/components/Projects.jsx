@@ -1,8 +1,6 @@
 import React from 'react'
 import Android from "@/components/magicui/android";
-import ansar from "/project-images/ansar.jpg"
 import saatar from "/project-images/saatar.jpg"
-import rentla from "/project-images/rentla.jpg"
 import food from "/project-images/food.jpg"
 import preview from "/project-images/preview.jpg"
 import rentlahome from "/project-images/home.jpg"
@@ -26,7 +24,7 @@ export const Projects = () => {
       title: "Saatar",
       subtitle: 'Food and Grocery',
       description: 'Saatar offers food and grocery delivery at the lowest prices, with separate apps for delivery partners (Saatar Agent) and shop owners (Saatar Merchant).',
-      images:[saatar,food,preview],
+      images: [ saatar, food, preview ],
       skills: [
         'Android SDK ', ' Java ', ' ViewBinding ', ' SQLite ', ' Retrofit ', ' RESTAPI Integration'
       ]
@@ -35,7 +33,7 @@ export const Projects = () => {
       title: "Rentla",
       subtitle: 'Renting Products App',
       description: 'Rentla is India\'s first app for renting laptops, computers, cameras, generators, projectors, and more, catering to those in need of such equipment.',
-      images: [rentlahome,rentlasearch,rentlaaccount],
+      images: [ rentlahome, rentlasearch, rentlaaccount ],
       skills: [
         'Android SDK ', ' Java', ' DataBinding ', ' ViewBinding ', ' SQLite ', ' ROOM Database ', ' Retrofit ', ' RESTAPI Integration'
       ]
@@ -44,13 +42,13 @@ export const Projects = () => {
       title: "Ansar Prepaid",
       subtitle: 'Mobile Recharge Application',
       description: 'Ansar Prepaid is Malaysian based Mobile Recharge Application.',
-      images: [ansarhome,ansartopup,ansarsubsc],
+      images: [ ansarhome, ansartopup, ansarsubsc ],
     },
     {
       title: "Docdate",
       subtitle: 'Search and book Doctor\'s',
       description: 'Docdate Application is very essential for searching doctors & book your appointments in your locality.',
-      images:[docdatehome,docdatesummary,docdatedoctor],
+      images: [ docdatehome, docdatesummary, docdatedoctor ],
       skills: [
         'Android SDK ', ' Java ', ' DataBinding ', ' ViewBinding ', ' SQLite ', ' ROOM Database ', ' Retrofit ', ' RESTAPI Integration'
       ]
@@ -59,7 +57,7 @@ export const Projects = () => {
       title: "Parking Tickets",
       subtitle: 'For Parking Tickets',
       description: 'provide the parking ticket and receipt for the vehicle',
-      images:[parkinghome,parkingsummary,parkingsubmit],
+      images: [ parkinghome, parkingsummary, parkingsubmit ],
       skills: [
         'Android SDK ', ' Java', ' DataBinding ', ' ViewBinding ', ' SQLite ', ' ROOM Database ', ' Retrofit ', ' RESTAPI Integration'
       ]
@@ -85,20 +83,18 @@ export const Projects = () => {
           {items.map((item, key) => (
             <AccordionItem key={key} aria-label={`${item.title} Accordion`} subtitle={item?.subtitle} title={item.title}>
               <div className="flex flex-col gap-3 mb-4">
-                
+
                 {/* Multiple Images Preview */}
                 {item?.images && (
-                <>
-                  <span className="text-sm text-slate-300 underline underline-offset-4 mb-2 ">Preview Images:</span>
-                  <div className="flex justify-center gap-1 overflow-x-auto"> 
-                    {item.images.map((img, imgKey) => (
-                  <div key={imgKey} className="w-[200px] h-[280px] aspect-video shrink-0 -mx-15">
-                      <Android className="w-full h-full mock-animate" src={img} />
-                  </div>
-                 ))}
-                </div>
-                </>
-               )}
+                  <>
+                    <span className="text-sm text-slate-300 underline underline-offset-4 mb-2 ">Preview Images:</span>
+                    <div className="flex flex-row items-center flex-wrap justify-center gap-1">
+                      {item.images.map((img, imgKey) => (
+                        <Android key={imgKey} className="size-[200px]" src={img} />
+                      ))}
+                    </div>
+                  </>
+                )}
 
                 {/* Description */}
                 {item?.description && (

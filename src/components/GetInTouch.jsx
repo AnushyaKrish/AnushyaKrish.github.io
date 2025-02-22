@@ -17,7 +17,7 @@ export const GetInTouch = () => {
         <div className="h-16 w-px bg-slate-700 mx-auto mt-3"></div>
 
         <div className="flex justify-around items-center mb-5 px-4">
-          <a href="mailto:uanushya@gmail.com" className="border rounded-xl transition-all duration-400 hover:border-slate-500 hover:scale-105 hover:bg-slate-900 border-slate-600 px-4 py-2 flex flex-col items-center gap-3" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:uanushya@gmail.com" className="border rounded-xl transition-all duration-400 hover:border-slate-500  hover:scale-105 hover:bg-slate-900 border-slate-600 px-4 py-2 flex flex-col items-center gap-3" target="_blank" rel="noopener noreferrer">
             <MdOutlineMailOutline className='text-xl lg:text-3xl text-slate-300' />
           </a>
           <hr className='grow border-slate-600 dark:shadow-md' />

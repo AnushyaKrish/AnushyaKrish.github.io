@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Profile = () => {
     return (
-        <div className="mx-auto max-w-[1024px] px-5 my-16">
+        <div className="mx-auto max-w-[1024px] px-5 my-16" id="profile">
             <div className="mx-auto w-full flex flex-col h-full gap- py-5">
                 <div className="flex flex-col">
                     <div className="text-3xl md:text-4xl py-3 lg:py-5 lg:text-5xl xl:text-7xl bg-gradient-to-r from-slate-50 to-slate-500  text-transparent bg-clip-text font-thin text-center">Quick Intro</div>
