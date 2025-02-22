@@ -11,10 +11,10 @@ export const Profile = () => {
 
                 <div className="h-16 w-px bg-slate-700 mx-auto mt-3"></div>
                 <div className="border border-slate-700 p-5 text-sm lg:text-lg 2xl:text-2xl text-slate-300 py-5 rounded-lg text-pretty text-justify">
-                    Experienced working in startups as an <strong>Android Developer</strong>. Build Mobile Applications for the
-                    companies in Ecommerce, Financial, and Recharge. Skilled in <strong>Kotlin, Android SDK, Android
-                    Development, Android Architecture Patterns, Data Binding, View Binding, Rest API Integration,
-                    Room Database, Spring-boot, Hibernate, MYSQL, Payment Gateways</strong> along with Problem solving
+                    Experienced working in startups as an <strong>Mobile App Developer</strong>. Build Mobile Applications for the
+                    companies in Ecommerce, Financial, and Recharge. Skilled in <strong>Java, Kotlin, Flutter, Android SDK, Android
+                    Development, Android Architecture Patterns, Data Binding, View Binding, Rest API Integration, Sqlite Da
+                    Room Database, Hibernate, MYSQL, Payment Gateways</strong> along with Problem solving
                     skills.
                 </div>
             </div>

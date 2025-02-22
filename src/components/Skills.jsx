@@ -7,7 +7,7 @@ export const Skills = () => {
       _1: [ 'Rest API Integration', 'Live Data', 'View Binding', 'View Model', 'Unit Testing' ],
       ui: [ 'XML', 'Figma' ],
       database: [ 'Sqlite', 'Room', 'Firebase' ],
-      backend: [ 'Java', 'Kotlin' ],
+      backend: [ 'Java', 'Kotlin','Flutter' ],
       http_client: [ 'Retrofit', 'OKHTTP' ]
     }
   ];

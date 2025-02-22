@@ -39,7 +39,7 @@ export const GetInTouch = () => {
         </div>
 
         <div className="inline-bloc mx-auto mt-10">
-          <a href="/cv-anushya.pdf" className='border border-slate-400 text-slate-300 rounded-full text-sm px-6 py-2 hover:bg-slate-900 hover:border-slate-200 transition-colors duration-300 ease-in focus:bg-slate-800 focus:border-slate-400' download={true} >Get My CV</a>
+          <a href="/resume.pdf" className='border border-slate-400 text-slate-300 rounded-full text-sm px-6 py-2 hover:bg-slate-900 hover:border-slate-200 transition-colors duration-300 ease-in focus:bg-slate-800 focus:border-slate-400' download={true} >Get My CV</a>
         </div>
 
       </div>

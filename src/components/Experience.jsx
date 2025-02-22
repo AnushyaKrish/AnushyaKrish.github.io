@@ -1,4 +1,5 @@
 import React from 'react'
+import anu from "/akinfopark_logo.jpg"
 
 export const Experience = () => {
   return (
@@ -16,21 +17,25 @@ export const Experience = () => {
 
             {/* Left Section */}
             <div className="inline-flex justify-center items-center flex-col">
-              <div className="p-4 lg:p-6 justify-center text-center border bg-slate-900 border-slate-600 inline-flex rounded-full"></div>
-              <div className="h-full grow shrink-0 w-px bg-slate-700"></div>
+             <img 
+                src={anu} 
+                alt="anushya-profile-img" 
+                className="rounded-full object-cover w-20 h-13"
+            />
+            <div className="h-full w-px bg-slate-700"></div>
             </div>
 
             {/* Right Section */}
             <div className="py-10">
               <div className="flex items-start mb-3 flex-col md:flex-row md:gap-2">
                 <span className='font-bold text-xl text-slate-200'>AK Infopark Private Limited</span>
-                <span className="font-normal text-lg text-slate-400">- Android Developer - Team Lead</span>
+                <span className="font-normal text-lg text-slate-400">- Mobile App Developer - Team Lead</span>
               </div>
               <div className="text-xs text-slate-400 font-semibold">Jul 2022 - Dec 2024</div>
 
               <ul className='list-none mt-4 text-slate-300'>
-                <li className='mb-2 flex gap-2'> <span>*</span> <span>Developed native Android Application using <strong>Java</strong>.</span></li>
-                <li className='mb-2 flex gap-2'> <span>*</span> <span>Worked on more than <strong>10+</strong> Mobile Apps like <strong>Ansar Prepaid, Saatar, Docdate, Rentla,
+                <li className='mb-2 flex gap-2'> <span>*</span> <span>Developed native Android Application using <strong>Java, Kotlin and Flutter.</strong>.</span></li>
+                <li className='mb-2 flex gap-2'> <span>*</span> <span>Worked on more than <strong>10+</strong> Mobile Apps like <strong>Ansar Prepaid, Ticket 365, Saatar, Docdate, Rentla,
                   Furqaan and HBSLife</strong>.</span></li>
                 <li className='mb-2 flex gap-2'> <span>*</span> <span>Conducted <strong>Workshops & Internships</strong> for college students in app development.</span></li>
                 <li className='mb-2 flex gap-2'> <span>*</span> <span>Worked closely with Project Managers, <strong>Team Lead</strong> from gathering requirement,
